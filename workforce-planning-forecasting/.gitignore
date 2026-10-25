@@ -11,3 +11,10 @@ trained_models/
 
 # Keep source code and templates tracked
 !**/.gitkeep
+
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+__pycache__/
