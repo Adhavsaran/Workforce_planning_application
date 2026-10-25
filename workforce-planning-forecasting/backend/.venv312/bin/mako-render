@@ -1,0 +1,6 @@
+#!/home/adhavsaran/Documents/HRM_PROJECT/workforce-planning-forecasting/backend/.venv312/bin/python
+import sys
+from mako.cmd import cmdline
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(cmdline())

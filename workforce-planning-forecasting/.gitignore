@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+venv/
+dist/
+build/
+.ipynb_checkpoints/
+trained_models/
+
+# Keep source code and templates tracked
+!**/.gitkeep
